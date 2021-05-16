@@ -144,7 +144,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 }
 
@@ -192,6 +192,10 @@ section.success {
 
     section.first {
         padding-top: 75px;
+    }
+
+    .navbar-brand{
+        font-size: 13px;
     }
 }
 
