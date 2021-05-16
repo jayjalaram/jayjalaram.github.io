@@ -4,7 +4,7 @@ modal-id: 1
 date: 2021-05-16
 img: rasawalakhaman.png
 alt: rasawala khaman
-project-date: April 2014
+project-date: May 2021
 client: Jay Jalaram
 category: Menu
 description: Rasawala khaman with lasan chatni.
