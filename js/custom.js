@@ -67,7 +67,7 @@ function loadData(country){
    var txt = "LOL";
 //    var returnUrl = window.location.href;
    var returnUrl = BASE_URL;
-   document.getElementById("fullWS").href = "https://wa.me/9979174071?text="+ txt + encodeURIComponent(returnUrl);
+   document.getElementById("fullWS").href = "https://wa.me/+919979174071?text="+ txt + encodeURIComponent(returnUrl);
 
    let intrmUrl = "upi://" + text;
    let signedUrl = "upi://" + text + "&sign=" + btoa(intrmUrl);
