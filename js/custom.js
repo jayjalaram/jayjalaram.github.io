@@ -48,7 +48,7 @@ function loadData(country){
    let text = "pay?pa=" + urlParams["vpa"] + "&mode=00&orgid=000000&cu=INR"
 
    if("nm" in urlParams){
-       text = text + "&pn=" + (urlParams["nm"]).replace(/ /g,'') + "&tn=Buying%20chai%20for%20" + (urlParams["nm"]).replace(/ /g,'')
+       text = text + "&pn=" + (urlParams["nm"]).replace(/ /g,'') + "&tn=Order%20Rasawala%20for%20" + (urlParams["nm"]).replace(/ /g,'')
        document.getElementById("name").innerHTML = urlParams["nm"];
        if("amt" in urlParams){
            document.getElementById("amt").innerHTML = " of ₹ " + urlParams["amt"]
