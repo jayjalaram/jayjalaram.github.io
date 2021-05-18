@@ -21,24 +21,25 @@
                             <ul class="list-inline item-details">
                                 {% if post.client %}
                                     <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                        <strong><a href="{{ post.url }}">{{ post.client }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.project-date %}
                                     <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                        <strong><a href="#">{{ post.project-date }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.category %}
                                     <li>Service:
-                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                        <strong><a href="#">{{ post.category }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <a class="btn btn-success" href="/order/"><i class="fa fa-bullhorn"></i> Order Now</a>
                         </div>
                     </div>
                 </div>

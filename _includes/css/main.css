@@ -185,6 +185,11 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
+@media(max-width:1024px) {
+    .row.qrM{
+        display: block !important;
+    }
+}
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -197,6 +202,7 @@ section.success {
     .navbar-brand{
         font-size: 13px;
     }
+
 }
 
 #portfolio .portfolio-item {
